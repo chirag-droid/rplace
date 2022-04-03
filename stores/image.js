@@ -8,6 +8,10 @@ export function addImage(path, location, size) {
   imageConfig.set('size', size);
 }
 
+export function getPath() {
+  return imageConfig.get('path');
+}
+
 export function getLocation() {
   return imageConfig.get('location');
 }
