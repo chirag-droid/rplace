@@ -1,97 +1,97 @@
 const color_map = {
-  '#BE0039': {
+  0xbe0039: {
     id: 1,
     name: 'Dark red',
   },
-  '#FF4500': {
+  0xff4500: {
     id: 2,
     name: 'Bright Red',
   },
-  '#FFA800': {
+  0xffa800: {
     id: 3,
     name: 'Orange',
   },
-  '#FFD635': {
+  0xffd635: {
     id: 4,
     name: 'Yellow',
   },
-  '#00A368': {
+  0x00a368: {
     id: 6,
     name: 'Dark Green',
   },
-  '#00CC78': {
+  0x00cc78: {
     id: 7,
     name: 'Green',
   },
-  '#7EED56': {
+  0x7eed56: {
     id: 8,
     name: 'Light Green',
   },
-  '#00756F': {
+  0x00756f: {
     id: 9,
     name: 'Dark Teal',
   },
-  '#009EAA': {
+  0x009eaa: {
     id: 10,
     name: 'Teal',
   },
-  '#2450A4': {
+  0x2450a4: {
     id: 12,
     name: 'Dark Blue',
   },
-  '#3690EA': {
+  0x3690ea: {
     id: 13,
     name: 'Blue',
   },
-  '#51E9F4': {
+  0x51e9f4: {
     id: 14,
     name: 'Light Blue',
   },
-  '#493AC1': {
+  0x493ac1: {
     id: 15,
     name: 'Indigo',
   },
-  '#6A5CFF': {
+  0x6a5cff: {
     id: 16,
     name: 'Periwinkle',
   },
-  '#811E9F': {
+  0x811e9f: {
     id: 18,
     name: 'Dark Purple',
   },
-  '#B44AC0': {
+  0xb44ac0: {
     id: 19,
     name: 'Purple',
   },
-  '#FF3881': {
+  0xff3881: {
     id: 22,
     name: 'Pink',
   },
-  '#FF99AA': {
+  0xff99aa: {
     id: 23,
     name: 'Light Pink',
   },
-  '#6D482F': {
+  0x6d482f: {
     id: 24,
     name: 'Dark Brown',
   },
-  '#9C6926': {
+  0x9c6926: {
     id: 25,
     name: 'Brown',
   },
-  '#000000': {
+  0x000000: {
     id: 27,
     name: 'Black',
   },
-  '#898D90': {
+  0x898d90: {
     id: 29,
     name: 'Gray',
   },
-  '#D4D7D9': {
+  0xd4d7d9: {
     id: 30,
     name: 'Light Gray',
   },
-  '#FFFFFF': {
+  0xffffff: {
     id: 31,
     name: 'White',
   },
