@@ -1,5 +1,4 @@
 import ConfigStore from 'configstore';
-import logSymbols from 'log-symbols';
 
 import { getToken } from '../lib/auth.js';
 

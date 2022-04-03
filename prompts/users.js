@@ -5,7 +5,7 @@ import { login } from '../lib/auth.js';
 import { getSize } from '../stores/users.js';
 
 export const choicePrompt = async () => {
-  const choices = ['Start', 'Add a new user'];
+  const choices = ['Next', 'Add a new user'];
 
   const choice = (
     await inquirer.prompt({

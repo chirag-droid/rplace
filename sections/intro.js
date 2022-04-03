@@ -20,7 +20,7 @@ const title = () => {
   console.log();
 };
 
-export async function intro() {
+export default async function intro() {
   // Clear the console
   clear();
 

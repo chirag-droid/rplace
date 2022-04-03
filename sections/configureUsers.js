@@ -1,12 +1,12 @@
 import { passPrompt, userPrompt, choicePrompt } from '../prompts/users.js';
 import { isConfigured } from '../stores/users.js';
 
-export async function configureUsers() {
-  let start = false;
+export default async function configureUsers() {
+  let next = false;
 
   // for loop that only stops when the user
   // chooses to start the main script
-  while (!start) {
+  while (!next) {
     // Check if the user has logged in previously
     if (!isConfigured()) {
       // If not then make the user add a user.
@@ -16,7 +16,7 @@ export async function configureUsers() {
       // one more user or not.
       const choice = await choicePrompt();
       if (choice === 0) {
-        start = true;
+        next = true;
       } else {
         await addUser();
       }
