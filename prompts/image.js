@@ -40,4 +40,5 @@ export const locationPrompt = async () =>
     })
   ).location
     .split(',')
-    .map(Number.parseInt);
+    .map((v) => v.trim(v))
+    .map((v) => Number.parseInt(v));
