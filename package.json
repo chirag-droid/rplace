@@ -1,6 +1,6 @@
 {
   "name": "rplacebot",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "An automation script for r/place",
   "main": "index.js",
   "type": "module",
