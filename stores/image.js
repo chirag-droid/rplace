@@ -2,10 +2,10 @@ import Configstore from 'configstore';
 
 const imageConfig = new Configstore('rplace/image');
 
-export function addImage(path, location, size) {
+export function addImage(path, location, height) {
   imageConfig.set('path', path);
   imageConfig.set('location', location);
-  imageConfig.set('size', size);
+  imageConfig.set('height', height);
 }
 
 export function getPath() {
@@ -16,8 +16,8 @@ export function getLocation() {
   return imageConfig.get('location');
 }
 
-export function getSize() {
-  return imageConfig.get('size');
+export function getHeight() {
+  return imageConfig.get('height');
 }
 
 export function isConfigured() {

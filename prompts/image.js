@@ -27,6 +27,7 @@ export const heightPrompt = async () =>
       name: 'size',
       type: 'number',
       message: 'choose the maximum height for the image',
+      validate: (h) => (h >= 10 ? true : 'height should atleast be 10'),
     })
   ).size;
 

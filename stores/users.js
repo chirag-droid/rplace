@@ -17,6 +17,10 @@ export async function addUser(username, password, { accessToken, expiresIn }) {
   });
 }
 
+export function getAll(username) {
+  return usersConfig.all;
+}
+
 // Get the user by its username
 export async function getUser(username) {
   username = username.toLowerCase();
@@ -29,7 +33,7 @@ export async function getUser(username) {
   // Before returning the user, check if it is not expired
   // and refresh it if necessary
   if (user.expiresAt < new Date().getTime() + 180000) {
-    refreshUser(username);
+    await refreshUser(username);
   }
 
   return usersConfig.get(username);
