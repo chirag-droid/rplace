@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import intro from './sections/intro.js';
 import configureClient from './sections/configureClient.js';
 import configureUsers from './sections/configureUsers.js';

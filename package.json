@@ -1,6 +1,6 @@
 {
   "name": "rplacebot",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "An automation script for r/place",
   "main": "index.js",
   "type": "module",
@@ -8,7 +8,7 @@
   "author": "chirag-droid",
   "license": "MIT",
   "bin": {
-    "rplace": "node ./index.js"
+    "rplace": "./index.js"
   },
   "scripts": {
     "dev": "nodemon index.js",
