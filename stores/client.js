@@ -5,7 +5,7 @@ class ClientStore extends ConfigStore {
   has = (key) => process.env[key] || super.has(key);
 }
 
-const clientConfig = new ClientStore('rplace/client');
+export const clientConfig = new ClientStore('rplace/client');
 
 export function isConfigured() {
   return clientConfig.has('CLIENT_ID') && clientConfig.has('CLIENT_SECRET');
