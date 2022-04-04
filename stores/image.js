@@ -1,6 +1,6 @@
 import Configstore from 'configstore';
 
-const imageConfig = new Configstore('rplace/image');
+export const imageConfig = new Configstore('rplace/image');
 
 export function addImage(path, location, height) {
   imageConfig.set('path', path);
